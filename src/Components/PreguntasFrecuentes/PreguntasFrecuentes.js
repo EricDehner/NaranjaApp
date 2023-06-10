@@ -1,6 +1,6 @@
 import "./PreguntasFrecuentes.css"
 import data from "./data.json"
-import Accordion from "../Accordion/Accordion"
+import AccordionQuestions from "../AccordionQuestions/AccordionQuestions"
 import Vector from "./Assets/Vector.svg"
 import React, { useState } from "react";
 
@@ -20,26 +20,26 @@ const PreguntasFrecuentes = () => {
                 <h2 className="preguntasFrecuentes_title">Preguntas frecuentes</h2>
                 <div className="preguntasFrecuentes_content">
                     <div className="">
-                        <Accordion {...data.pregunta1} />
-                        <Accordion {...data.pregunta2} />
-                        <Accordion {...data.pregunta3} />
-                        <Accordion {...data.pregunta4} />
-                        <Accordion {...data.pregunta5} />
-                        <Accordion {...data.pregunta6} />
-                        <Accordion {...data.pregunta7} />
-                        <Accordion {...data.pregunta8} />
-                        <Accordion {...data.pregunta9} />
-                        <Accordion {...data.pregunta10} />
-                        <Accordion {...data.pregunta11} />
-                        <Accordion {...data.pregunta12} />
-                        <Accordion {...data.pregunta13} />
-                        <Accordion {...data.pregunta14} />
-                        <Accordion {...data.pregunta15} />
-                        <Accordion {...data.pregunta16} />
-                        <Accordion {...data.pregunta17} />
-                        <Accordion {...data.pregunta18} />
-                        <Accordion {...data.pregunta19} />
-                        <Accordion {...data.pregunta20} />
+                        <AccordionQuestions {...data.pregunta1} />
+                        <AccordionQuestions {...data.pregunta2} />
+                        <AccordionQuestions {...data.pregunta3} />
+                        <AccordionQuestions {...data.pregunta4} />
+                        <AccordionQuestions {...data.pregunta5} />
+                        <AccordionQuestions {...data.pregunta6} />
+                        <AccordionQuestions {...data.pregunta7} />
+                        <AccordionQuestions {...data.pregunta8} />
+                        <AccordionQuestions {...data.pregunta9} />
+                        <AccordionQuestions {...data.pregunta10} />
+                        <AccordionQuestions {...data.pregunta11} />
+                        <AccordionQuestions {...data.pregunta12} />
+                        <AccordionQuestions {...data.pregunta13} />
+                        <AccordionQuestions {...data.pregunta14} />
+                        <AccordionQuestions {...data.pregunta15} />
+                        <AccordionQuestions {...data.pregunta16} />
+                        <AccordionQuestions {...data.pregunta17} />
+                        <AccordionQuestions {...data.pregunta18} />
+                        <AccordionQuestions {...data.pregunta19} />
+                        <AccordionQuestions {...data.pregunta20} />
                     </div>
                     <button onClick={toggleQuestions} className="preguntasFrecuentes_button">
                         <p className="preguntasFrecuentes_button-text">Ver menos</p>
@@ -55,10 +55,10 @@ const PreguntasFrecuentes = () => {
             <h2 className="preguntasFrecuentes_title">Preguntas frecuentes</h2>
             <div className="preguntasFrecuentes_content">
                 <div className="">
-                    <Accordion {...data.pregunta1} />
-                    <Accordion {...data.pregunta2} />
-                    <Accordion {...data.pregunta3} />
-                    <Accordion {...data.pregunta4} />
+                    <AccordionQuestions {...data.pregunta1} />
+                    <AccordionQuestions {...data.pregunta2} />
+                    <AccordionQuestions {...data.pregunta3} />
+                    <AccordionQuestions {...data.pregunta4} />
                 </div>
                 <button onClick={toggleQuestions} className="preguntasFrecuentes_button">
                     <p className="preguntasFrecuentes_button-text">Ver más</p>
