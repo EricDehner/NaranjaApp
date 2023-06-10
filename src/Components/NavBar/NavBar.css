@@ -1,0 +1,11 @@
+.navBar {
+    height: 66px;
+    background: #07143A;
+    display: flex;
+    align-items: center;
+}
+
+.navBar_logo {
+    width: 142px;
+    height: 40px;
+}

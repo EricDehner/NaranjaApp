@@ -1,0 +1,40 @@
+.videoTour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.2rem;
+}
+
+.videoTour_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+.videoTour_video {
+    width: 100%;
+    aspect-ratio: 1/.626;
+}
+
+.videoTour_button {
+    border: 0.5px solid #07143A;
+    border-radius: 50px;
+    width: 156px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #07143A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
