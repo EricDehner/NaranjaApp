@@ -15,8 +15,8 @@ const CaracteristicasYFuncionalidades = () => {
     if (item === true) {
         return (
             <section className="caracteristicasYFuncionalidades">
-            <h2 className="caracteristicasYFuncionalidades_title">Características y funcionalidades de Naranja ERP</h2>
-            <p className="caracteristicasYFuncionalidades_description">Cuenta con todas características de un software administrativo</p>
+                <h2 className="caracteristicasYFuncionalidades_title">Características y funcionalidades de Naranja ERP</h2>
+                <p className="caracteristicasYFuncionalidades_description">Cuenta con todas características de un software administrativo</p>
                 <CaracteristicasYFuncionalidadesItem {...data.item1} />
                 <CaracteristicasYFuncionalidadesItem {...data.item2} />
                 <CaracteristicasYFuncionalidadesItem {...data.item3} />

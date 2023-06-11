@@ -1,6 +1,6 @@
 {
     "item1": {
-        "id": 1,
+        "id": "facturacionPos",
         "image": "./Assets/FacturacionPos.png",
         "title": "Facturación POS",
         "list": [
@@ -10,7 +10,7 @@
         ]
     },
     "item2": {
-        "id": 2,
+        "id": "cuentasPorPagar",
         "image": "./Assets/CuentasPorPagar.png",
         "title": "Cuentas por pagar",
         "list": [
@@ -19,7 +19,7 @@
         ]
     },
     "item3": {
-        "id": 3,
+        "id": "clientesProveedores",
         "image": "./Assets/ClientesProveedores.png",
         "title": "Clientes/proveedores",
         "list": [
@@ -28,7 +28,7 @@
         ]
     },
     "item4": {
-        "id": 4,
+        "id": "controlDeInventarios",
         "image": "./Assets/ControlDeInventarios.png",
         "title": "Control de inventarios",
         "list": [
@@ -39,7 +39,7 @@
         ]
     },
     "item5": {
-        "id": 5,
+        "id": "aperturaYCierreDeCaja",
         "image": "./Assets/AperturaYCierreDeCaja.png",
         "title": "Apertura y cierre de caja",
         "list": [
@@ -48,7 +48,7 @@
         ]
     },
     "item6": {
-        "id": 6,
+        "id": "bancos",
         "image": "./Assets/Bancos.png",
         "title": "Bancos",
         "list": [
@@ -58,7 +58,7 @@
         ]
     },
     "item7": {
-        "id": 7,
+        "id": "ordenesDeVenta",
         "image": "./Assets/OrdenesDeVenta.png",
         "title": "Órdenes de venta",
         "list": [
@@ -68,7 +68,7 @@
         ]
     },
     "item8": {
-        "id": 8,
+        "id": "puntosDeVentaOSucursales",
         "image": "./Assets/PuntosDeVentaOSucursales.png",
         "title": "Puntos de venta o sucursales",
         "list": [

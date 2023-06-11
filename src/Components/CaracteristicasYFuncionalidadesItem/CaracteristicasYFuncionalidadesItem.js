@@ -7,7 +7,7 @@ const CaracteristicasYFuncionalidadesItem = ({ id, image, title, list }) => {
     return (
         <div className="caracteristicasYFuncionalidadesItem" id={id}>
             <div className="caracteristicasYFuncionalidadesItem_img">
-                <img  className="caracteristicasYFuncionalidadesItem_img-img" src={imagen} alt={title} />
+                <img className="caracteristicasYFuncionalidadesItem_img-img" src={imagen} alt={title} />
             </div>
             <h3 className="caracteristicasYFuncionalidadesItem_title">{title}</h3>
             <ul className="caracteristicasYFuncionalidadesItem_list">
@@ -17,7 +17,6 @@ const CaracteristicasYFuncionalidadesItem = ({ id, image, title, list }) => {
                     </li>
                 ))}
             </ul>
-
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.caracteristicasYFuncionalidadesItem{
+.caracteristicasYFuncionalidadesItem {
     padding: 0 2rem;
 }
 
@@ -17,7 +17,7 @@
     justify-content: center !important;
     align-items: center;
     position: absolute;
-    bottom: 16px;
+    bottom: 15px;
     right: 13px;
 }
 
@@ -32,7 +32,7 @@
     padding: 0 0 .2rem;
 }
 
-.caracteristicasYFuncionalidadesItem_list{
+.caracteristicasYFuncionalidadesItem_list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -42,6 +42,18 @@
     color: #000000;
 }
 
-.caracteristicasYFuncionalidadesItem_list-item{
+.caracteristicasYFuncionalidadesItem_list-item {
     list-style: none;
+}
+
+#cuentasPorPagar .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
+    right: 17px !important;
+}
+
+#bancos .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
+    right: 15px !important;
+}
+
+#ordenesDeVenta .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
+    bottom: 16px !important;
 }
