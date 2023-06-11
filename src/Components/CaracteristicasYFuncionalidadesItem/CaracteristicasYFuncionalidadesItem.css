@@ -1,0 +1,47 @@
+.caracteristicasYFuncionalidadesItem{
+    padding: 0 2rem;
+}
+
+.caracteristicasYFuncionalidadesItem_img {
+    width: 49px !important;
+    height: 49px !important;
+    border: 0.5px solid #000066;
+    border-radius: 50%;
+    margin: 1rem auto .7rem;
+    padding: .5rem 0;
+    position: relative;
+}
+
+.caracteristicasYFuncionalidadesItem_img-img {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: 13px;
+}
+
+.caracteristicasYFuncionalidadesItem_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding: 0 0 .2rem;
+}
+
+.caracteristicasYFuncionalidadesItem_list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.caracteristicasYFuncionalidadesItem_list-item{
+    list-style: none;
+}

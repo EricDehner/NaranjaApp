@@ -1,4 +1,5 @@
 import './App.css';
+import CaracteristicasYFuncionalidades from './Components/CaracteristicasYFuncionalidades/CaracteristicasYFuncionalidades';
 import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import Planes from './Components/Planes/Planes';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Ruta />
+      <CaracteristicasYFuncionalidades />
       <VideoTour />
       <Planes />
       <PreguntasFrecuentes />

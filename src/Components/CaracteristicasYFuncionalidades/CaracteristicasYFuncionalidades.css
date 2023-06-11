@@ -1,0 +1,57 @@
+.caracteristicasYFuncionalidades_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    padding: 2rem 1.2rem;
+}
+
+.caracteristicasYFuncionalidades_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding: 0rem 3rem .5rem;
+}
+
+.caracteristicasYFuncionalidades_button {
+    background: #07143A;
+    border: 0.5px solid #07143A;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 31px;
+    margin: 2.5rem auto 2rem;
+}
+
+.caracteristicasYFuncionalidades_button-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-right: .7rem;
+}
+
+.caracteristicasYFuncionalidades_button-img--nonactive {
+    transform: rotate(180deg);
+}
+
+.cuentasPorPagar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: 17px;
+}
