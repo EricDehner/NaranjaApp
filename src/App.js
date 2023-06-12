@@ -6,6 +6,7 @@ import Planes from './Components/Planes/Planes';
 import PreguntasFrecuentes from './Components/PreguntasFrecuentes/PreguntasFrecuentes';
 import Ruta from './Components/Ruta/Ruta';
 import VideoTour from './Components/VideoTour/VideoTour';
+import NaranjaPos from './Components/NaranjaPos/NaranjaPos';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Ruta />
       <CaracteristicasYFuncionalidades />
       <VideoTour />
+      <NaranjaPos />
       <Planes />
       <PreguntasFrecuentes />
       <Footer />

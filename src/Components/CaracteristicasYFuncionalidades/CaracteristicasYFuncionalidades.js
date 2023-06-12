@@ -1,10 +1,13 @@
 import "./CaracteristicasYFuncionalidades.css"
 import CaracteristicasYFuncionalidadesItem from "../CaracteristicasYFuncionalidadesItem/CaracteristicasYFuncionalidadesItem";
-import data from "./data.json"
+import data from "./item"
 import { useState } from "react";
 import Vector from "./Assets/Vector.svg"
 
 const CaracteristicasYFuncionalidades = () => {
+
+    const itemsPreview = data.filter(data => data.position === "preview")
+    const itemsComplete = data
 
     const [item, setItems] = useState(false);
 
@@ -17,14 +20,7 @@ const CaracteristicasYFuncionalidades = () => {
             <section className="caracteristicasYFuncionalidades">
                 <h2 className="caracteristicasYFuncionalidades_title">Características y funcionalidades de Naranja ERP</h2>
                 <p className="caracteristicasYFuncionalidades_description">Cuenta con todas características de un software administrativo</p>
-                <CaracteristicasYFuncionalidadesItem {...data.item1} />
-                <CaracteristicasYFuncionalidadesItem {...data.item2} />
-                <CaracteristicasYFuncionalidadesItem {...data.item3} />
-                <CaracteristicasYFuncionalidadesItem {...data.item4} />
-                <CaracteristicasYFuncionalidadesItem {...data.item5} />
-                <CaracteristicasYFuncionalidadesItem {...data.item6} />
-                <CaracteristicasYFuncionalidadesItem {...data.item7} />
-                <CaracteristicasYFuncionalidadesItem {...data.item8} />
+                {itemsComplete.map(i => <CaracteristicasYFuncionalidadesItem key={i.id} id={i.id} image={i.image} title={i.title} list={i.list} />)}
                 <button onClick={toggleItems} className="caracteristicasYFuncionalidades_button">
                     <p className="caracteristicasYFuncionalidades_button-text">Conocer menos</p>
                     <img className="caracteristicasYFuncionalidades_button-img--nonactive" src={Vector} alt="vector" />
@@ -37,10 +33,7 @@ const CaracteristicasYFuncionalidades = () => {
         <section className="caracteristicasYFuncionalidades">
             <h2 className="caracteristicasYFuncionalidades_title">Características y funcionalidades de Naranja ERP</h2>
             <p className="caracteristicasYFuncionalidades_description">Cuenta con todas características de un software administrativo</p>
-            <CaracteristicasYFuncionalidadesItem {...data.item1} />
-            <CaracteristicasYFuncionalidadesItem {...data.item2} />
-            <CaracteristicasYFuncionalidadesItem {...data.item3} />
-            <CaracteristicasYFuncionalidadesItem {...data.item4} />
+            {itemsPreview.map(i => <CaracteristicasYFuncionalidadesItem key={i.id} id={i.id} image={i.image} title={i.title} list={i.list} />)}
             <button onClick={toggleItems} className="caracteristicasYFuncionalidades_button">
                 <p className="caracteristicasYFuncionalidades_button-text">Conocer más</p>
                 <img className="caracteristicasYFuncionalidades_button-img--active" src={Vector} alt="vector" />
