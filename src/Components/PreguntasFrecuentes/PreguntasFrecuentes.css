@@ -27,11 +27,12 @@
     justify-content: center;
     align-items: center;
     margin: .8rem auto 0;
-    border: 0.5px solid #07143A;
+    border: 1px solid #07143A;
     border-radius: 50px;
     height: 31px;
     width: 144px;
     position: relative;
+    background-color: #FFFFFF;
 }
 
 .preguntasFrecuentes_button-text {

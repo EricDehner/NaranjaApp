@@ -1,0 +1,54 @@
+.beneficiosItem {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin: 1rem 1.2rem;
+}
+
+.beneficiosItem_header {
+    display: flex;
+    padding: .5rem 0 0;
+}
+
+.beneficiosItem_header-preview {
+    padding: .5rem 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.beneficiosItem_header-img {
+    padding: 0 1rem 0 3rem;
+}
+
+.beneficiosItem_header-title {
+    padding: 0 2.5rem 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.beneficiosItem_content {
+    padding: .5rem 0;
+}
+
+.beneficiosItem_content-text {
+    padding: 0 .8rem;
+    text-align: center;
+}
+
+.beneficiosItem_content-clarification {
+    padding: 1rem 1rem .2rem;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    color: #F5751A;
+}
