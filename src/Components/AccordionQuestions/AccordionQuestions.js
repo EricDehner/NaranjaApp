@@ -17,7 +17,7 @@ const Accordion = ({ id, question, answer }) => {
                 <img className={menu ? `accordion_question--vector---nonactive` : `accordion_question--vector---active`} src={Vector} alt="Vector" />
                 <p className={menu ? `accordion_answer-active` : `accordion_answer-nonactive`}>{answer} </p>
             </button>
-            <hr />
+            <div className="accordion_stick"></div>
         </div>
     )
 }
