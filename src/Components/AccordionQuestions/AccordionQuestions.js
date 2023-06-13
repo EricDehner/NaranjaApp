@@ -2,7 +2,6 @@ import "./AccordionQuestions.css"
 import Vector from "./Assets/Vector.svg"
 import React, { useState } from "react";
 
-
 const Accordion = ({ id, question, answer }) => {
 
     const [menu, setMenu] = useState(false);

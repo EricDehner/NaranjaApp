@@ -30,11 +30,10 @@ const Ruta = () => {
                 </div>
                 <div className="ruta_route-item">
                     <p className="ruta_route-item--number">5</p>
-                    <p className="ruta_route-item--description">Accede gratis a Naranja Academy y<br/> fortalece tus habilidades blandas</p>
+                    <p className="ruta_route-item--description">Accede gratis a Naranja Academy y<br /> fortalece tus habilidades blandas</p>
                 </div>
                 <div className="ruta_route-stick"></div>
             </div>
-
         </section>
     )
 }
