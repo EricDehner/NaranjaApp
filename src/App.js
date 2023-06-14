@@ -8,11 +8,13 @@ import NaranjaPos from './Components/NaranjaPos/NaranjaPos';
 import PreguntasFrecuentes from './Components/PreguntasFrecuentes/PreguntasFrecuentes';
 import CaracteristicasYFuncionalidades from './Components/CaracteristicasYFuncionalidades/CaracteristicasYFuncionalidades';
 import Beneficios from './Components/Beneficios/Beneficios';
+import NaranjaErp from './Components/NaranjaErp/NaranjaErp';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <NaranjaErp />
       <Beneficios />
       <Ruta />
       <CaracteristicasYFuncionalidades />
