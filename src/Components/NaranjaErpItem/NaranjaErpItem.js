@@ -2,7 +2,6 @@ import "./NaranjaErpItem.css"
 
 const NaranjaErpItem = ({ id, image, description }) => {
 
-
     const imagen = require(`${image}`)
 
     return (
@@ -11,7 +10,5 @@ const NaranjaErpItem = ({ id, image, description }) => {
             <p className="naranjaErpItem_description">{description}</p>
         </section>
     )
-
-
 }
 export default NaranjaErpItem

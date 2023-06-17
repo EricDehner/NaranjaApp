@@ -10,6 +10,5 @@ const NaranjaPosItem = ({ id, image, description }) => {
             <p className="naranjaPosItem_description">{description}</p>
         </section>
     )
-
 }
 export default NaranjaPosItem

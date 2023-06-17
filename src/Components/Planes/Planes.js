@@ -1,7 +1,6 @@
 import "./Planes.css"
 
 const Planes = () => {
-
     return (
         <section className="planes">
             <h2 className="planes_title">Planes</h2>
@@ -35,6 +34,5 @@ const Planes = () => {
             </div>
         </section>
     )
-
 }
 export default Planes

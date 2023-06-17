@@ -7,7 +7,6 @@ import { FreeMode, Pagination } from "swiper";
 import "swiper/css";
 
 const NaranjaPos = () => {
-
     return (
         <section className="naranjaPos">
             <h2 className="naranjaPos_title">Naranja Pos</h2>
@@ -23,6 +22,5 @@ const NaranjaPos = () => {
             </div>
         </section>
     )
-
 }
 export default NaranjaPos

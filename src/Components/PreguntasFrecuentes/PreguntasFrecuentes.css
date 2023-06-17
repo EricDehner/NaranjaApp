@@ -11,7 +11,7 @@
     text-align: center;
     letter-spacing: -0.03em;
     color: #000000;
-    padding: 1.5rem 0 2rem ;
+    padding: 1.5rem 0 2rem;
 }
 
 .preguntasFrecuentes_content {
@@ -47,9 +47,10 @@
 }
 
 .preguntasFrecuentes_button-img {
-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
 }
+
 .preguntasFrecuentes_button-img--nonactive {
-transform: rotate(180deg);
-transition: all .15s ease-in-out;
+    transform: rotate(180deg);
+    transition: all .15s ease-in-out;
 }

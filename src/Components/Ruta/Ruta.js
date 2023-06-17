@@ -3,7 +3,6 @@ import ImagenRuta from "./Assets/134 1.svg"
 import ImagenRuta1 from "./Assets/Line 58.svg"
 
 const Ruta = () => {
-
     return (
         <section className="ruta">
             <div className="ruta_image">

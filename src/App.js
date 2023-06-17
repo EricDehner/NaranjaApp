@@ -9,11 +9,13 @@ import PreguntasFrecuentes from './Components/PreguntasFrecuentes/PreguntasFrecu
 import CaracteristicasYFuncionalidades from './Components/CaracteristicasYFuncionalidades/CaracteristicasYFuncionalidades';
 import Beneficios from './Components/Beneficios/Beneficios';
 import NaranjaErp from './Components/NaranjaErp/NaranjaErp';
+import Hero from './Components/Hero/Hero';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <Hero />
       <NaranjaErp />
       <Beneficios />
       <Ruta />
