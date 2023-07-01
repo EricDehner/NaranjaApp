@@ -1,18 +1,23 @@
 .navBar {
-    height: 66px;
-    background: #07143A;
-    display: flex;
-    align-items: center;
+  height: 66px;
+  background: #07143a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navBar_logo {
-    width: 142px;
-    height: 40px;
+  width: 142px;
+  height: 40px;
 }
 
 .navBar_button {
-   
-    margin-left: 78%;
-   
-
+  font-size: 25px;
+  background: #07143a;
+  color: #ff751a;
+  border-radius: 10%;
+  padding: 0.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
 }

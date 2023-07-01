@@ -1,62 +1,62 @@
 .preguntasFrecuentes {
-    margin: 0 0 1.5rem 0;
+  margin: 0 0 1.5rem 0;
 }
 
 .preguntasFrecuentes_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #000000;
-    padding: 1.5rem 0 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding: 1.5rem 0 2rem;
 }
 
 .preguntasFrecuentes_content {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin: 0 1rem;
-    padding: 0 0 .8rem 0;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0 1rem;
+  padding: 0 0 0.8rem 0;
 }
 
 .preguntasFrecuentes_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .8rem auto 0;
-    border: 1px solid #07143A;
-    border-radius: 50px;
-    height: 31px;
-    width: 144px;
-    position: relative;
-    background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem auto 0;
+  border: 1px solid #07143a;
+  border-radius: 50px;
+  height: 31px;
+  width: 144px;
+  position: relative;
+  background-color: #ffffff;
 }
 
 .preguntasFrecuentes_button-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #07143A;
-    padding-right: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #07143a;
+  padding-right: 1rem;
 }
 
 .preguntasFrecuentes_button-img {
-    transition: all .15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .preguntasFrecuentes_button-img--nonactive {
-    transform: rotate(180deg);
-    transition: all .15s ease-in-out;
+  transform: rotate(180deg);
+  transition: all 0.15s ease-in-out;
 }
 
 @media (min-width: 1024px) {
-    .preguntasFrecuentes_title {
-        font-size: 35px;
-    }
+  .preguntasFrecuentes_title {
+    font-size: 35px;
+  }
 }
