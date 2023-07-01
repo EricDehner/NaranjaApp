@@ -20,14 +20,14 @@ const Beneficios = () => {
             <h2 className="beneficios_title">Beneficios de pertenecer a Naranja Erp</h2>
             <p className="beneficios_subtitle">Con Naranja Erp cuentas además, con todas las ventajas de una plataforma Cloud o en la Nube, lo que te permitirá:</p>
             <div className="beneficios_content">
-                <div>
+                <div className="beneficios_items">
                     {(beneficiosItems ? itemsComplete : itemsPreview).map(i => <BeneficiosItem key={i.id} title={i.title} description={i.description} img={i.image} clarification={i.clarification} />)}
-                </div>
+                </div>  </div>
                 <button onClick={toggleQuestions} className="beneficios_content-button">
                     <p className="beneficios_content-button--text"> {beneficiosItems ? "Conocer menos" : "Conocer más"} </p>
                     <img className={beneficiosItems ? "beneficios_content-button--img---nonactive" : "beneficios_content-button--img---active"} src={Vector} alt="vector" />
                 </button>
-            </div>
+          
         </section>
     )
 }

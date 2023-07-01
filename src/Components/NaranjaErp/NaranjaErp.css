@@ -26,7 +26,11 @@
 
 .naranjaErp_cards {
     margin: 0 0 2rem 0;
+    height: 100%;
+  
+
 }
+  
 
 .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
@@ -46,4 +50,17 @@
 .swiper-pagination-bullet-active {
     opacity: 1 !important;
     background: #061439 !important;
+}
+
+@media (min-width: 1024px) {
+
+    .naranjaErp_cards {
+        margin: 0 0 2rem 0;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+      
+    
+    }
+
 }

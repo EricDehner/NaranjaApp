@@ -52,3 +52,16 @@
     text-align: center;
     color: #F5751A;
 }
+
+@media (min-width: 1024px) {
+
+    .beneficiosItem_content-clarification {
+        font-size: 20px;
+
+       
+
+    } 
+    .beneficiosItem {
+        width: 50%;
+    }
+}

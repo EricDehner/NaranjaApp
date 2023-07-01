@@ -54,3 +54,9 @@
     transform: rotate(180deg);
     transition: all .15s ease-in-out;
 }
+
+@media (min-width: 1024px) {
+    .preguntasFrecuentes_title {
+        font-size: 35px;
+    }
+}

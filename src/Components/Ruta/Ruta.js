@@ -8,9 +8,9 @@ const Ruta = () => {
             <div className="ruta_image">
                 <img className="ruta_image-img" src={ImagenRuta} alt="ImagenRuta" />
                 <img className="ruta_image-stick" src={ImagenRuta1} alt="ImagenRuta" />
-            </div>
+            </div> <div className="ruta_route">
             <h2 className="ruta_title">La ruta que te acercará a<br /> NARANJA ERP</h2>
-            <div className="ruta_route">
+           
                 <div className="ruta_route-item">
                     <p className="ruta_route-item--number">1</p>
                     <p className="ruta_route-item--description">Pide un tour de Naranja Erp dejando tus datos</p>

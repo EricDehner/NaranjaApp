@@ -50,3 +50,23 @@
 .planes_card-footer {
     padding: 1rem 0;
 }
+
+@media (min-width: 1024px) {
+    .planes {
+      display: flex;
+      flex-direction: row;
+      text-align: end;
+     justify-content: space-around;
+  
+
+    }
+    .planes_card {
+        width: 300%;
+        font-size: larger;
+        line-height: 30px;
+    }
+
+
+
+
+}

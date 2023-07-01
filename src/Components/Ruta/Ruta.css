@@ -80,3 +80,41 @@
     top: 45px;
     z-index: 1;
 }
+
+@media (min-width: 1024px) {
+
+    .ruta_route-item {
+        display: flex;
+        padding: .8rem 0 1rem 1.2rem;
+      
+     
+    }
+    .ruta {
+        background: #07143A;
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0 1rem;
+     
+      
+     
+      
+    }
+    .ruta_image-img {
+        width: 200%;
+    }
+    .ruta_route {
+        line-height: 35px;
+        font-size: 20px;
+     
+      
+    }
+    .ruta_title {
+       
+        margin-bottom: 10%;
+        font-size: 25px;
+
+    }
+
+
+
+}

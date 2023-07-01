@@ -65,3 +65,23 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.38);
 }
+
+@media (min-width: 1024px) {
+    .accordion_question {
+     
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+    }
+    .accordion_question--question {
+        font-size: 25px;
+       
+    } 
+    .accordion_answer-active {
+        font-size: 22px;
+        line-height: 24px;
+            
+        }
+}
