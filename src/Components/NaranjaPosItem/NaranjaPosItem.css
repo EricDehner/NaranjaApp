@@ -40,3 +40,76 @@
   top: 31px;
   left: 13px;
 }
+
+@media (min-width: 1024px) {
+  .naranjaPosItem {
+    width: 80%;
+    height: 380px;
+  }
+  .naranjaPosItem_description {
+    font-size: 22px;
+    left: 25%;
+    line-height: 26px;
+    width: 50%;
+  }
+  .naranjaPosItem_img {
+    left: 30%;
+  }
+  #card3 .naranjaPosItem_img {
+    left: 30%;
+  }
+  #card8 .naranjaPosItem_img {
+    left: 30%;
+  }
+}
+@media (max-width: 610px) {
+  .naranjaPosItem {
+    width: 70%;
+    height: 320px;
+  }
+
+  .naranjaPosItem_description {
+    font-size: 14px;
+    left: 15%;
+    line-height: 16px;
+    width: 70%;
+    top: 50%;
+  }
+  .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+  }
+  #card3 .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+    top: 15px;
+  }
+  #card8 .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .naranjaPosItem {
+    width: 65%;
+    height: 320px;
+  }
+  .naranjaPosItem_description {
+    font-size: 12px;
+    left: 12%;
+    width: 75%;
+    top: 30%;
+  }
+  .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+  }
+  #card3 .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+  }
+  #card8 .naranjaPosItem_img {
+    left: 15%;
+    width: 70%;
+  }
+}

@@ -38,3 +38,10 @@
     align-items: center;
     margin: 2rem;
 }
+@media (min-width: 1024px) {
+    .videoTour {
+      padding: 2%;
+
+    }
+
+}
