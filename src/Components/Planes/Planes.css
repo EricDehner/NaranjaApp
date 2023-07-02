@@ -62,4 +62,7 @@
     font-size: larger;
     line-height: 30px;
   }
+  .planes_title {
+    display: none;
+  }
 }
