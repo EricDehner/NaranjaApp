@@ -1,95 +1,69 @@
 .beneficios_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #000000;
-    padding: 1rem 2.5rem 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding: 1rem 2.5rem 0;
 }
 
 .beneficios_subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding: 1rem 2.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding: 1rem 2.5rem;
 }
 
 .beneficios_content-button {
-    width: 144px;
-    height: 31px;
-    border: 0.5px solid #00003A;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem auto;
+  width: 144px;
+  height: 31px;
+  border: 0.5px solid #00003a;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
 }
 
 .beneficios_content-button--text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: #00003A;
-    padding: 0 1rem 0 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #00003a;
+  padding: 0 1rem 0 0;
 }
 
 .beneficios_content-button--img---nonactive {
-    transform: rotate(180deg);
-    transition: all .15s ease-in-out;
+  transform: rotate(180deg);
+  transition: all 0.15s ease-in-out;
 }
 
 .beneficios_content-button--img---active {
-    transform: rotate(0deg);
-    transition: all .15s ease-in-out;
+  transform: rotate(0deg);
+  transition: all 0.15s ease-in-out;
 }
-
 @media (min-width: 1024px) {
-.beneficios_content {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 400px;
-    font-size: 25px;
-    justify-content: space-between;
-
+  .beneficios {
+    display: none;
+  }
 }
-.beneficios_items {
-    display: flex;
-max-width: 100%;
-font-size: 25px;
-
-
-    
-}
-.beneficios_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #000000;
-    padding: 1rem 2.5rem 0;
-}
-.beneficios_subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding: 2rem 2.5rem;
-}
-
+@media (max-width: 1024px) {
+  .beneficiosDeskTop1 {
+    display: none;
+  }
+  .beneficiosDeskTop2 {
+    display: none;
+  }
+  .beneficiosDeskTop3 {
+    display: none;
+  }
 }

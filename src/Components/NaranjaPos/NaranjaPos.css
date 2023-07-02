@@ -45,4 +45,18 @@
 }
 
 @media (min-width: 1024px) {
+  .naranjaPos {
+    display: none;
+  }
+  .naranjaPos_cards {
+  
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .naranjaPos1 {
+    display: none;
+  }
 }

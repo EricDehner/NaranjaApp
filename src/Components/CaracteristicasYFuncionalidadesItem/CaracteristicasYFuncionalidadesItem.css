@@ -1,59 +1,107 @@
 .caracteristicasYFuncionalidadesItem {
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .caracteristicasYFuncionalidadesItem_img {
-    width: 49px !important;
-    height: 49px !important;
-    border: 1px solid #000066;
-    border-radius: 50%;
-    margin: 1rem auto .7rem;
-    padding: .5rem 0;
-    position: relative;
+  width: 49px !important;
+  height: 49px !important;
+  border: 1px solid #000066;
+  border-radius: 50%;
+  margin: 1rem auto 0.7rem;
+  padding: 0.5rem 0;
+  position: relative;
 }
 
 .caracteristicasYFuncionalidadesItem_img-img {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-    position: absolute;
-    bottom: 15px;
-    right: 13px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  right: 13px;
 }
 
 .caracteristicasYFuncionalidadesItem_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding: 0 0 .2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding: 0 0 0.2rem;
 }
 
 .caracteristicasYFuncionalidadesItem_list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
 }
 
 .caracteristicasYFuncionalidadesItem_list-item {
-    list-style: none;
+  list-style: none;
 }
 
-#cuentasPorPagar .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
-    right: 17px !important;
+#cuentasPorPagar
+  .caracteristicasYFuncionalidadesItem_img
+  .caracteristicasYFuncionalidadesItem_img-img {
+  right: 17px !important;
 }
 
-#bancos .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
-    right: 15px !important;
+#bancos
+  .caracteristicasYFuncionalidadesItem_img
+  .caracteristicasYFuncionalidadesItem_img-img {
+  right: 15px !important;
 }
 
-#ordenesDeVenta .caracteristicasYFuncionalidadesItem_img .caracteristicasYFuncionalidadesItem_img-img {
-    bottom: 16px !important;
+#ordenesDeVenta
+  .caracteristicasYFuncionalidadesItem_img
+  .caracteristicasYFuncionalidadesItem_img-img {
+  bottom: 16px !important;
+}
+
+@media (min-width: 1024px) {
+  .caracteristicasYFuncionalidadesItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .caracteristicasYFuncionalidadesItem1 {
+    width: 100%;
+
+    display: flex;
+  }
+  .caracteristicasYFuncionalidadesItem2 {
+    width: 100%;
+
+    display: flex;
+  }
+  .caracteristicasYFuncionalidadesItem3 {
+    width: 100%;
+
+    display: flex;
+  }
+  .caracteristicasYFuncionalidadesItem4 {
+    width: 100%;
+
+    display: flex;
+  }
+  
+  .caracteristicasYFuncionalidadesItem_img {
+    width: 45px !important;
+    height: 45px !important;
+    border: 1px solid #000066;
+    border-radius: 50%;
+
+    padding: 0.5rem 0;
+    position: absolute;
+    
+ 
+  }
+
 }

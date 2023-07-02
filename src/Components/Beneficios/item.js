@@ -51,13 +51,13 @@ const items =  [
         description: "Contarás con un modelo de S.A.A.S, que no requiere mantenimientos. A través de la suscripción que canceles, tendrás el derecho de usar todas las características del sistema.",
 
     },
-    {
-        id: 8,
-        image: "./Assets/8.svg",
-        title: "No necesitas backups",
-        description: "No tendrás que preocuparte si se pierde información o se formatea tu computador, Con naranja erp tienes seguridad de la información, confidencialidad y en la nube.",
+    // {
+    //     id: 8,
+    //     image: "./Assets/8.svg",
+    //     title: "No necesitas backups",
+    //     description: "No tendrás que preocuparte si se pierde información o se formatea tu computador, Con naranja erp tienes seguridad de la información, confidencialidad y en la nube.",
 
-    },
+    // },
     {
         id: 9,
         image: "./Assets/9.svg",
