@@ -56,4 +56,12 @@
     text-align: center;
     width: 100%;
   }
+  .naranjaErp {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .naranjaErp1 {
+    display: none;
+  }
 }

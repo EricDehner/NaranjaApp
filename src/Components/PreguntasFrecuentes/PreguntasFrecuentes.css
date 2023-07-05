@@ -60,4 +60,14 @@
   .preguntasFrecuentes_title {
     font-size: 35px;
   }
+  .preguntasFrecuentes {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+ 
+  .preguntasFrecuentes1 {
+    display: none;
+  }
 }

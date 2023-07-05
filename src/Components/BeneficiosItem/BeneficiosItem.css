@@ -34,6 +34,7 @@
 
 .beneficiosItem_content {
   padding: 0.5rem 0;
+
 }
 
 .beneficiosItem_content-text {
@@ -56,7 +57,9 @@
 @media (min-width: 1024px) {
   .beneficiosItem_content-clarification {
     font-size: 22px;
+    line-height: 24px;
   }
+ 
 
   .beneficiosItem_content-text {
     font-size: 20px;
@@ -64,15 +67,59 @@
 
   .beneficiosItem {
     width: 40%;
+
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
   }
   .beneficios_items {
     display: flex;
+   
   }
 
   .beneficios_items2 {
     display: flex;
     flex-direction: row;
-  
+    width: 1000px;
+   
     justify-content: center;
+
+  
   }
+  .beneficiosItem_header-img {
+    width: 20%;
+   align-items: center;
+   justify-content: center;
+   padding: 0%;
+  }
+  .beneficiosItem_header-title {
+    margin-top: 15%;
+    font-size: 20px;
+   padding: 0%;
+    line-height: 26px;
+    text-align: center;
+  }
+  .beneficiosItem_header-preview {
+    padding: 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .beneficiosItem_header {
+    display: flex;
+    padding: 0.5rem 0 0;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+  }
+  .beneficiosItem_content-text {
+    font-size: 20px;
+    text-justify: auto;
+    justify-content: space-evenly;
+   
+  }
+  
 }

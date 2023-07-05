@@ -34,7 +34,7 @@ const BeneficiosDeskTop2 = () => {
       <Container>
         <Col>
           <Row>
-            <div className="beneficios_content">
+            <div className="beneficios_content2">
               <div className="beneficios_items2">
                 {(beneficiosItems ? itemsComplete : itemsPreview).map((i) => (
                   <BeneficiosItem

@@ -56,6 +56,17 @@
   .beneficios {
     display: none;
   }
+  .beneficios_content2 {
+    display: flex;
+    justify-content: center;
+  }
+  .beneficios_content {
+    display: flex;
+    justify-content: center;
+  }
+  .beneficios_subtitle {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1024px) {
   .beneficiosDeskTop1 {

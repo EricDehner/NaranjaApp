@@ -44,6 +44,8 @@
 
 .caracteristicasYFuncionalidadesItem_list-item {
   list-style: none;
+
+
 }
 
 #cuentasPorPagar
@@ -70,6 +72,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 20px;
+   
+  border-style: outset;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
   }
   .caracteristicasYFuncionalidadesItem1 {
     width: 100%;
@@ -93,15 +102,58 @@
   }
   
   .caracteristicasYFuncionalidadesItem_img {
-    width: 45px !important;
-    height: 45px !important;
+    width: 70px !important;
+    height:70px !important;
     border: 1px solid #000066;
     border-radius: 50%;
 
     padding: 0.5rem 0;
     position: absolute;
-    
- 
+  
   }
+  .caracteristicasYFuncionalidadesItem_list-item {
+    list-style: none;
+    width: 100%;
+ 
+    font-size: 0.8rem;
+  }
+  .caracteristicasYFuncionalidadesItem_list {
+   position: relative;
+   margin-left: 15%;
+text-justify: auto;
+text-align: left;
+font-size: 15px;
+   
+   
+
+  }
+  .caracteristicasYFuncionalidadesItem_title {
+    font-size: 18px;
+    padding-top: 2%;
+    color: #000066;
+  }
+
+  .caracteristicasYFuncionalidadesItem_img-img {
+    right: 22px;
+    top: 25px;
+    width: 35%;
+
+  }
+  #bancos
+  .caracteristicasYFuncionalidadesItem_img
+  .caracteristicasYFuncionalidadesItem_img-img {
+ 
+    top: 22px;
+    width: 35%;
+    left: 23px;
+}
+#cuentasPorPagar
+  .caracteristicasYFuncionalidadesItem_img
+  .caracteristicasYFuncionalidadesItem_img-img {
+    top: 22px;
+    width: 22%;
+    left: 28px;
+}
+
 
 }
