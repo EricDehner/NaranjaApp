@@ -74,7 +74,7 @@
 }
 
 .footer_copyright-anchor {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -86,4 +86,52 @@ color: #FFFFFF;
 
 .footer_networks-item {
     padding: 0 .5rem;
+}
+
+@media screen and (min-width:768px) {
+    .footer_acknowledgments {
+        grid-area: footer_acknowledgments;
+        margin: auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr max-content;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: "title title"
+            "fondoEmprender presidencia"
+            "logoNaranja logoNaranja";
+    }
+
+    .fondoEmprender,
+    .presidencia {
+        width: 85%;
+        max-width: 230px;
+    }
+
+    .footer_acknowledgments {
+        grid-area: footer_acknowledgments;
+        margin: auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: max-content 1fr max-content;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: "title title"
+            "fondoEmprender presidencia"
+            "logoNaranja logoNaranja";
+    }
+
+    .footer_acknowledgments-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 0 1rem;
+        text-align: center;
+    }
 }

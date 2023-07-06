@@ -82,9 +82,6 @@
 }
 
 @media screen and (min-width: 1060px) {
-    .ruta {
-        background: #00003A;
-    }
 
     .ruta_title {
         padding-right: 1rem;
