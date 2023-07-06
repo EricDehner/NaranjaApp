@@ -8,7 +8,7 @@
     aspect-ratio: 1/.5626;
 }
 
-.hero_title {
+.hero_content-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -20,7 +20,7 @@
     padding: 1.2rem 2.5rem;
 }
 
-.hero_description {
+.hero_content-description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -31,7 +31,7 @@
     padding: 0 2.6rem 1rem;
 }
 
-.hero_description span {
+.hero_content-description span {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -39,4 +39,106 @@
     line-height: 16px;
     text-align: center;
     color: #000000;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        padding: 0 0 2rem;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "hero_content hero_video";
+    }
+
+
+    .hero_video {
+        width: 95%;
+        aspect-ratio: 1/.5626;
+        grid-area: hero_video;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        position: relative;
+        margin: 2rem 0;
+    }
+
+    .hero_content {
+        grid-area: hero_content;
+        position: relative;
+        display: flex;
+        padding: 0 0 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero_content-title {
+        max-width: 80%;
+        color: #FF751A;
+        font-size: 235%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: left;
+        padding: 0 0 1.5rem;
+    }
+
+    .hero_content-description span,
+    .hero_content-description {
+        max-width: 90%;
+        color: #000;
+        font-size: 22px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1010px) {
+    .hero_content {
+        grid-area: hero_content;
+        position: relative;
+        display: flex;
+        padding: 2rem 0 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) and (min-width: 1250px) {
+    .hero_content-title {
+        max-width: 80%;
+        color: #FF751A;
+        font-size: 310%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: left;
+        padding: 0 0 1.5rem;
+    }
+
+    .hero_content-description span,
+    .hero_content-description {
+        max-width: 90%;
+        color: #000;
+        font-size: 26px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        padding: 0;
+    }
 }

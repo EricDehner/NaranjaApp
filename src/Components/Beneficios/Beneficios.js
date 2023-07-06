@@ -1,5 +1,5 @@
-import BeneficiosItem from "../BeneficiosItem/BeneficiosItem";
 import "./Beneficios.css"
+import BeneficiosItem from "../BeneficiosItem/BeneficiosItem";
 import items from "./item.js"
 import React, { useState } from "react";
 import Vector from "./Assets/Vector.svg"
@@ -8,12 +8,26 @@ const Beneficios = () => {
 
     const itemsPreview = items.filter(item => item.position === "preview")
     const itemsComplete = items
+    const itemsDesktop = items.slice(0, 7).concat(items.slice(8));
 
     const [beneficiosItems, setBeneficiosItems] = useState(false);
 
     const toggleQuestions = () => {
         setBeneficiosItems(!beneficiosItems);
     };
+
+
+    if (window.innerWidth >= 768) {
+        return (
+            <section className="beneficios">
+                <h2 className="beneficios_title">Beneficios de pertenecer a NARANJA ERP</h2>
+                <p className="beneficios_subtitle">Con Naranja Erp cuentas además, con todas las ventajas de una plataforma Cloud o en la Nube, lo que te permitirá:</p>
+                <div className="beneficios_content">
+                    {itemsDesktop.map(i => <BeneficiosItem key={i.id} id={i.id} title={i.title} description={i.description} img={i.image} clarification={i.clarification} />)}
+                </div>
+            </section>
+        )
+    }
 
     return (
         <section className="beneficios">

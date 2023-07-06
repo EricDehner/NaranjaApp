@@ -65,3 +65,39 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.38);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .accordion_stick {
+        height: 1px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.181);
+    }
+
+    .accordion_question--question {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #000000;
+        min-height: 38px;
+        max-height: max-content;
+        padding: 0 2.3rem 0 0;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .accordion_answer-active {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        transition: all .25s ease-in-out;
+        padding: .3rem 0 .8rem 0;
+        text-align: left;
+    }
+}

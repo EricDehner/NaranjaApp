@@ -1,3 +1,7 @@
+.beneficios {
+    overflow: hidden;
+}
+
 .beneficios_title {
     font-family: 'Roboto';
     font-style: normal;
@@ -50,4 +54,63 @@
 .beneficios_content-button--img---active {
     transform: rotate(0deg);
     transition: all .15s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+
+    .beneficios_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+        padding: 1rem 2.5rem .8rem;
+    }
+
+    .beneficios_subtitle {
+        font-family: 'Roboto';
+        width: 580px;
+        font-style: normal;
+        margin: auto;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 23px;
+        text-align: center;
+        color: #000000;
+        padding: 0;
+    }
+
+    .beneficios_content {
+        display: flex;
+        gap: 50px 60px;
+        width: 1080px;
+        margin: 3rem auto 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .beneficios_content {
+        display: flex;
+        gap: 26px 19px;
+        width: 640px;
+        margin: 3rem auto 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1120px) {
+    .beneficios_content {
+        display: flex;
+        gap: 26px 19px;
+        width: 970px;
+        margin: 3rem auto 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

@@ -9,3 +9,26 @@
     width: 142px;
     height: 40px;
 }
+
+.navBar_btn {
+    position: absolute;
+    right: 40px;
+    width: 180px;
+    height: 38px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+}
+
+.navBar_btn-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 100%;
+}
+

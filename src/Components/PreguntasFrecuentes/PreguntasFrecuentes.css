@@ -54,3 +54,32 @@
     transform: rotate(180deg);
     transition: all .15s ease-in-out;
 }
+
+@media screen and (min-width: 1024px) {
+    .preguntasFrecuentes_content {
+        width: 80%;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 4px 0px rgba(0, 0, 58, 0.15);        border-radius: 10px;
+        margin: 0 auto;
+        padding: 0 0 .8rem 0;
+    }
+
+    .accordion_stick {
+        height: 1px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.38);
+    }
+
+    .preguntasFrecuentes_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        padding: 1.5rem 0 2rem;
+        margin: 2rem 0 0;
+    }
+}

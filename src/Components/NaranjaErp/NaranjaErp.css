@@ -1,6 +1,7 @@
-.naranjaErp{
+.naranjaErp {
     background-color: #FFFFFF;
 }
+
 .naranjaErp_title {
     font-family: 'Roboto';
     font-style: normal;
@@ -46,4 +47,31 @@
 .swiper-pagination-bullet-active {
     opacity: 1 !important;
     background: #061439 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .naranjaErp_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        margin: 2rem;
+    }
+
+
+    .swiper-pagination-bullet {
+        opacity: .5 !important;
+        width: 12px;
+        height: 12px;
+        background: #061439b9 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1 !important;
+        background: #FF751A !important;
+    }
 }

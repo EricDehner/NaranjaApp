@@ -7,7 +7,17 @@
     text-align: center;
     letter-spacing: -0.03em;
     color: #000000;
-    padding: 2rem 1.2rem;
+    padding: 2rem 1.2rem 1rem;
+}
+
+.caracteristicasYFuncionalidadesItem {
+    width: 90%;
+    border-radius: 0;
+    background: #FFF;
+    padding: 1rem 0 0;
+    margin: auto;
+    display: block;
+    height: max-content;
 }
 
 .caracteristicasYFuncionalidades_description {
@@ -18,7 +28,7 @@
     line-height: 16px;
     text-align: center;
     color: #000000;
-    padding: 0rem 3rem .5rem;
+    padding: 0 3rem;
 }
 
 .caracteristicasYFuncionalidades_button {
@@ -30,7 +40,7 @@
     justify-content: center;
     width: 144px;
     height: 31px;
-    margin: 2.5rem auto 2rem;
+    margin: 2rem auto 2rem;
 }
 
 .caracteristicasYFuncionalidades_button-text {
@@ -54,4 +64,78 @@
     position: absolute;
     bottom: 16px;
     right: 17px;
+}
+
+.caracteristicasYFuncionalidades_content {}
+
+@media screen and (min-width: 1024px) {
+
+    .caracteristicasYFuncionalidadesItem {
+        width: 500px;
+        border-radius: 40px;
+        background: #FFF;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 58, 0.15);
+        padding: 0;
+        display: block;
+        display: flex;
+        height: 170px;
+    }
+
+    .caracteristicasYFuncionalidades_content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto 5rem;
+        gap: 46px 60px;
+        width: 1060px;
+    }
+
+    .caracteristicasYFuncionalidades_description {
+        color: #000000;
+        padding: 0rem 3rem .5rem;
+        text-align: center;
+        font-size: 21px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .caracteristicasYFuncionalidades_title {
+        text-align: center;
+        color: #000000;
+        padding: 3.5rem 1.2rem .8rem;
+        font-size: 26px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.38px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .caracteristicasYFuncionalidades_content {
+        margin: 1rem auto 2rem;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    .caracteristicasYFuncionalidades_content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem auto 2rem;
+        gap: 0px 30px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1120px) {
+    .caracteristicasYFuncionalidades_content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto 5rem;
+        gap: 45px 30px;
+        width: 930px;
+    }
 }

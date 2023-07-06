@@ -7,7 +7,7 @@ const cards = [
     {
         id: "card2",
         image: "./Assets/2.svg",
-        description: "Asigna distintos usuarios para tu punto de ventaVendes y vendes, y no sabes a dónde fue tu dinero."
+        description: "Vendes y vendes, y no sabes a dónde fue tu dinero."
     },
     {
         id: "card3",
@@ -37,7 +37,7 @@ const cards = [
     {
         id: "card8",
         image: "./Assets/8.svg",
-        description: "Consulta tus cierres de caja por fechasEstás cansado de tomar tus decisiones a ciegas sin la información en tiempo real."
+        description: "Estás cansado de tomar tus decisiones a ciegas sin la información en tiempo real."
     },
     {
         id: "card9",

@@ -4,7 +4,7 @@ const Planes = () => {
     return (
         <section className="planes">
             <h2 className="planes_title">Planes</h2>
-            <div className="planes_card">
+            <div className="planes_card left_card">
                 <div className="planes_card-header">
                     <p className="planes_card-header--price">$240.000</p>
                     <h3 className="planes_card-header--title">PLAN SEMESTRAL</h3>
@@ -18,7 +18,7 @@ const Planes = () => {
                     <p className="planes_card-footer--description">Usuario adicional<br /> Valor anual $200.000</p>
                 </div>
             </div>
-            <div className="planes_card">
+            <div className="planes_card right_card">
                 <div className="planes_card-header">
                     <p className="planes_card-header--price">$400.000</p>
                     <h3 className="planes_card-header--title"> PLAN ANUAL</h3>

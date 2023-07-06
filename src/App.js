@@ -10,13 +10,31 @@ import CaracteristicasYFuncionalidades from './Components/CaracteristicasYFuncio
 import Beneficios from './Components/Beneficios/Beneficios';
 import NaranjaErp from './Components/NaranjaErp/NaranjaErp';
 import Hero from './Components/Hero/Hero';
+import { useState, useEffect } from "react";
 
+import useDeviceSize from './Components/Resize/Resize.js';
 function App() {
+
+  const [isMobile, setIsMobile] = useState(true);
+  const arrayWidth = useDeviceSize();
+  const width = arrayWidth[0];
+
+  useEffect(() => {
+    if (width >= 425) {
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+    }
+  }, [width, isMobile]);
+
+
   return (
     <div className="App">
       <NavBar />
-      <Hero />
-      <NaranjaErp />
+      <div className="App_heroDesktop">
+        <Hero />
+        <NaranjaErp />
+      </div>
       <Beneficios />
       <Ruta />
       <CaracteristicasYFuncionalidades />
