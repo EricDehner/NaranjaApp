@@ -9,6 +9,9 @@
     color: #000000;
     padding: 2rem 1.2rem 1rem;
 }
+.caracteristicasYFuncionalidades {
+    background-color: #F1F1F1;
+}
 
 .caracteristicasYFuncionalidadesItem {
     width: 90%;
@@ -66,7 +69,7 @@
     right: 17px;
 }
 
-.caracteristicasYFuncionalidades_content {}
+
 
 @media screen and (min-width: 1024px) {
 
