@@ -19,7 +19,7 @@
 
   .App_heroDesktop {
 
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 58, 0.27);
+    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 58, 0.27); */
     padding: 0 0 .5rem;
     margin: 0 0 2rem;
   }
